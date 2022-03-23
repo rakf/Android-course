@@ -43,7 +43,7 @@ public class SecondFragment extends Fragment {
         if (count > 0) {
             randomNumber = random.nextInt(count + 1);
         }
-        
+
         TextView randomView = view.getRootView().findViewById(R.id.textview_random);
         randomView.setText(randomNumber.toString());
 
